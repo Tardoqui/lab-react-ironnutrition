@@ -25,7 +25,7 @@ function App() {
     
   
     else {
-    const filteredFood = foodList.filter((elem) => {
+    const filteredFood = foodList2.filter((elem) => {
       return elem.name.toLowerCase().includes(event.target.value.toLowerCase())
     })
     setFoodList(filteredFood);
